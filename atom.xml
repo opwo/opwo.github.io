@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://opwo.github.io/"/>
-  <updated>2018-02-28T09:56:38.765Z</updated>
+  <updated>2018-02-28T09:59:28.962Z</updated>
   <id>https://opwo.github.io/</id>
   
   <author>
@@ -21,14 +21,11 @@
     <link href="https://opwo.github.io/2018/02/28/today/"/>
     <id>https://opwo.github.io/2018/02/28/today/</id>
     <published>2018-02-28T01:20:18.000Z</published>
-    <updated>2018-02-28T09:56:38.765Z</updated>
+    <updated>2018-02-28T09:59:28.962Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;Singleton-h&quot;&gt;&lt;a href=&quot;#Singleton-h&quot; class=&quot;headerlink&quot; title=&quot;Singleton.h&quot;&gt;&lt;/a&gt;Singleton.h&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;
-      
+      c++ 单例模式的实现
     
     </summary>
     
