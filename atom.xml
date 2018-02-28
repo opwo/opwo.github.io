@@ -5,9 +5,9 @@
   <subtitle>欢迎━(*｀∀´*)ノ亻!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://wangtong.me/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2018-02-28T03:50:03.641Z</updated>
-  <id>http://wangtong.me/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>wangtong</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>C++ 单例模式</title>
-    <link href="http://wangtong.me/2018/02/28/today/"/>
-    <id>http://wangtong.me/2018/02/28/today/</id>
+    <link href="http://yoursite.com/2018/02/28/today/"/>
+    <id>http://yoursite.com/2018/02/28/today/</id>
     <published>2018-02-28T01:20:18.000Z</published>
     <updated>2018-02-28T03:50:03.641Z</updated>
     
@@ -33,14 +33,14 @@
     </summary>
     
     
-      <category term="随笔" scheme="http://wangtong.me/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>联系我</title>
-    <link href="http://wangtong.me/2018/02/27/contact/"/>
-    <id>http://wangtong.me/2018/02/27/contact/</id>
+    <link href="http://yoursite.com/2018/02/27/contact/"/>
+    <id>http://yoursite.com/2018/02/27/contact/</id>
     <published>2018-02-27T07:59:44.000Z</published>
     <updated>2018-02-27T10:10:57.832Z</updated>
     
@@ -58,8 +58,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://wangtong.me/2018/02/27/hello-world/"/>
-    <id>http://wangtong.me/2018/02/27/hello-world/</id>
+    <link href="http://yoursite.com/2018/02/27/hello-world/"/>
+    <id>http://yoursite.com/2018/02/27/hello-world/</id>
     <published>2018-02-27T07:41:56.179Z</published>
     <updated>2018-02-27T07:41:56.179Z</updated>
     
