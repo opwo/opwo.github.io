@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://opwo.github.io/"/>
-  <updated>2018-02-28T03:50:03.641Z</updated>
+  <updated>2018-02-28T09:56:38.765Z</updated>
   <id>https://opwo.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://opwo.github.io/2018/02/28/today/"/>
     <id>https://opwo.github.io/2018/02/28/today/</id>
     <published>2018-02-28T01:20:18.000Z</published>
-    <updated>2018-02-28T03:50:03.641Z</updated>
+    <updated>2018-02-28T09:56:38.765Z</updated>
     
     <summary type="html">
     
@@ -31,6 +31,8 @@
       
     
     </summary>
+    
+      <category term="c++" scheme="https://opwo.github.io/categories/c/"/>
     
     
       <category term="随笔" scheme="https://opwo.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
