@@ -113,12 +113,14 @@
     <link href="https://opwo.github.io/2018/02/28/dijkstra/"/>
     <id>https://opwo.github.io/2018/02/28/dijkstra/</id>
     <published>2018-02-28T11:32:00.000Z</published>
-    <updated>2018-03-10T16:26:31.378Z</updated>
+    <updated>2018-03-10T16:31:26.111Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;迪杰斯特拉算法&quot;&gt;&lt;a href=&quot;#迪杰斯特拉算法&quot; class=&quot;headerlink&quot; title=&quot;迪杰斯特拉算法&quot;&gt;&lt;/a&gt;迪杰斯特拉算法&lt;/h1&gt;&lt;h2 id=&quot;基础&quot;&gt;&lt;a href=&quot;#基础&quot; class=&quot;headerlink&quot; title=&quot;基础&quot;&gt;&lt;/a&gt;基础&lt;/h2&gt;&lt;h3 id=&quot;邻接矩阵-Adjacency-Matrix&quot;&gt;&lt;a href=&quot;#邻接矩阵-Adjacency-Matrix&quot; class=&quot;headerlink&quot; title=&quot;邻接矩阵(Adjacency Matrix)&quot;&gt;&lt;/a&gt;邻接矩阵(Adjacency Matrix)&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;本质：一个二维数组，邻接矩阵又分为有向图邻接矩阵和无向图邻接矩阵&lt;br&gt;对无向图而言，邻接矩阵一定是对称的，而且主对角线一定为零（在此仅讨论无向简单图），副对角线不一定为0。&lt;br&gt;
+      
+      
+        &lt;h1 id=&quot;迪杰斯特拉算法&quot;&gt;&lt;a href=&quot;#迪杰斯特拉算法&quot; class=&quot;headerlink&quot; title=&quot;迪杰斯特拉算法&quot;&gt;&lt;/a&gt;迪杰斯特拉算法&lt;/h1&gt;&lt;h2 id=&quot;基础&quot;&gt;&lt;a href=&quot;#基础&quot; class=&quot;headerlink&quot; title=&quot;基
+      
     
     </summary>
     
