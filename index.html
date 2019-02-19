@@ -155,6 +155,178 @@
     </div>
   
     <div class='post-wrapper'>
+      <article class="post revealno-title">
+  <section class="meta">
+    
+    <time>
+      2月 19, 2019
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <h1 id="springboot添加自定义servlet-filter-listener，"><a href="#springboot添加自定义servlet-filter-listener，" class="headerlink" title="springboot添加自定义servlet, filter,listener，"></a>springboot添加自定义servlet, filter,listener，</h1><h2 id="注册三大组件"><a href="#注册三大组件" class="headerlink" title="注册三大组件"></a>注册三大组件</h2><h3 id="1-编写MyServlet-java"><a href="#1-编写MyServlet-java" class="headerlink" title="1.编写MyServlet.java"></a>1.编写<code>MyServlet.java</code></h3><p>用于测试，让他向浏览器输出一句话就好了</p>
+
+    
+	  <div class="readmore">
+      <a href="/2019/02/19/springboot自定义servlet,filter/">Read More</a>
+    </div>
+    
+    
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post revealno-title">
+  <section class="meta">
+    
+    <time>
+      2月 19, 2019
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <h1 id="springboot替换servlet容器jetty"><a href="#springboot替换servlet容器jetty" class="headerlink" title="springboot替换servlet容器jetty"></a>springboot替换servlet容器jetty</h1><h2 id="spring-boot支持的嵌入式servlet容器"><a href="#spring-boot支持的嵌入式servlet容器" class="headerlink" title="spring boot支持的嵌入式servlet容器"></a>spring boot支持的嵌入式servlet容器</h2><h3 id="1-Tomcat-默认"><a href="#1-Tomcat-默认" class="headerlink" title="1. Tomcat(默认)"></a>1. Tomcat(默认)</h3><h3 id="2-Jetty-长连接"><a href="#2-Jetty-长连接" class="headerlink" title="2. Jetty(长连接)"></a>2. Jetty(长连接)</h3><h3 id="3-Undertow-高并发，不支持JSP"><a href="#3-Undertow-高并发，不支持JSP" class="headerlink" title="3. Undertow(高并发，不支持JSP)"></a>3. Undertow(高并发，不支持JSP)</h3><h2 id="做法"><a href="#做法" class="headerlink" title="做法"></a>做法</h2>
+
+    
+	  <div class="readmore">
+      <a href="/2019/02/19/springboot替换servlet容器jetty/">Read More</a>
+    </div>
+    
+    
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post revealno-title">
+  <section class="meta">
+    
+    <time>
+      2月 19, 2019
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[Hard edge] --&gt;B(Round edge)</span><br><span class="line">    B --&gt; C&#123;Decision&#125;</span><br><span class="line">    C --&gt;|One| D[Result one]</span><br><span class="line">    C --&gt;|Two| E[Result two]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">%% Example of sequence diagram</span><br><span class="line">  sequenceDiagram</span><br><span class="line">    Alice-&gt;&gt;Bob: Hello Bob, how are you?</span><br><span class="line">    alt is sick</span><br><span class="line">    Bob-&gt;&gt;Alice: Not so good :(</span><br><span class="line">    else is well</span><br><span class="line">    Bob-&gt;&gt;Alice: Feeling fresh like a daisy</span><br><span class="line">    end</span><br><span class="line">    opt Extra response</span><br><span class="line">    Bob-&gt;&gt;Alice: Thanks for asking</span><br><span class="line">    end</span><br></pre></td></tr></table></figure>
+
+    
+	  <div class="readmore">
+      <a href="/2019/02/19/md语法/">Read More</a>
+    </div>
+    
+    
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post revealno-title">
+  <section class="meta">
+    
+    <time>
+      2月 19, 2019
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <h1 id="创建一个git仓库"><a href="#创建一个git仓库" class="headerlink" title="创建一个git仓库"></a>创建一个git仓库</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<h1 id="往仓库添加文件"><a href="#往仓库添加文件" class="headerlink" title="往仓库添加文件"></a>往仓库添加文件</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add readme.md</span><br><span class="line"><span class="comment">#或者添加git仓库文件夹底下所有文件</span></span><br><span class="line">git add . <span class="comment">#有个点</span></span><br></pre></td></tr></table></figure>
+
+    
+	  <div class="readmore">
+      <a href="/2019/02/19/git使用/">Read More</a>
+    </div>
+    
+    
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post revealno-title">
+  <section class="meta">
+    
+    <time>
+      2月 19, 2019
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <h1 id="docker命令"><a href="#docker命令" class="headerlink" title="docker命令"></a>docker命令</h1><h2 id="搜索镜像"><a href="#搜索镜像" class="headerlink" title="搜索镜像"></a>搜索镜像</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker search xxxx</span><br><span class="line"><span class="comment">#也可以访问 https://hub.docker.com(推荐)</span></span><br></pre></td></tr></table></figure>
+<h2 id="拉取（下载安装）镜像"><a href="#拉取（下载安装）镜像" class="headerlink" title="拉取（下载安装）镜像"></a>拉取（下载安装）镜像</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">docker pull xxxx #默认最新版本，也可以是 docker pull xxx:latest</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash">指定某个版本(镜像后加 “:” 和版本号)</span></span><br><span class="line">docker pull xxx:5.5</span><br></pre></td></tr></table></figure>
+
+    
+	  <div class="readmore">
+      <a href="/2019/02/19/docker基本操作/">Read More</a>
+    </div>
+    
+    
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post revealno-title">
+  <section class="meta">
+    
+    <time>
+      2月 19, 2019
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <h1 id="关于th-text的测试"><a href="#关于th-text的测试" class="headerlink" title="关于th:text的测试"></a>关于<code>th:text</code>的测试</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping</span>(<span class="string">"/success"</span>)</span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">success</span><span class="params">(Map&lt;Object, Object&gt; map)</span> </span>&#123;</span><br><span class="line">	map.put(<span class="string">"hello"</span>, <span class="string">"&lt;h1&gt;你好&lt;/h1&gt;"</span>);</span><br><span class="line">	map.put(<span class="string">"users"</span>, Arrays.asList(<span class="string">"张三"</span>,<span class="string">"&lt;h2&gt;王五&lt;/h2&gt;"</span>,<span class="string">"lierg"</span>));</span><br><span class="line">	<span class="keyword">return</span> <span class="string">"dashboard"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+    
+	  <div class="readmore">
+      <a href="/2019/02/19/code/">Read More</a>
+    </div>
+    
+    
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
+      <article class="post reveal">
+  <section class="meta">
+    
+    <h2 class="title">
+      <a href="/2019/02/19/hexo_tutorials/">
+        hexo教程
+      </a>
+    </h2>
+    
+    <time>
+      2月 19, 2019
+    </time>
+		
+  </section>
+  <section class="article typo">
+	  <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a><br>
+
+    
+	  <div class="readmore">
+      <a href="/2019/02/19/hexo_tutorials/">Read More</a>
+    </div>
+    
+    
+    
+  </section>
+</article>
+    </div>
+  
+    <div class='post-wrapper'>
       <article class="post reveal">
   <section class="meta">
     
@@ -173,37 +345,6 @@
 	  <h1 id="游戏邮件系统"><a href="#游戏邮件系统" class="headerlink" title="游戏邮件系统"></a>游戏邮件系统</h1><p><em>敬请期待。。。</em></p>
 
 
-    
-    
-    
-  </section>
-</article>
-    </div>
-  
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2018/03/01/hexo_tutorials/">
-        hexo教程
-      </a>
-    </h2>
-    
-    <time>
-      3月 1, 2018
-    </time>
-		
-  </section>
-  <section class="article typo">
-	  <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a><br>
-
-    
-	  <div class="readmore">
-      <a href="/2018/03/01/hexo_tutorials/">Read More</a>
-    </div>
     
     
     
@@ -246,166 +387,19 @@
 </article>
     </div>
   
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2018/02/28/test4/">
-        test4
-      </a>
-    </h2>
-    
-    <time>
-      2月 28, 2018
-    </time>
-		
-  </section>
-  <section class="article typo">
-	  
-
-    
-    
-    
-  </section>
-</article>
-    </div>
-  
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2018/02/28/test3/">
-        test3
-      </a>
-    </h2>
-    
-    <time>
-      2月 28, 2018
-    </time>
-		
-  </section>
-  <section class="article typo">
-	  
-
-    
-    
-    
-  </section>
-</article>
-    </div>
-  
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2018/02/28/test2/">
-        test2
-      </a>
-    </h2>
-    
-    <time>
-      2月 28, 2018
-    </time>
-		
-  </section>
-  <section class="article typo">
-	  
-
-    
-    
-    
-  </section>
-</article>
-    </div>
-  
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2018/02/28/dijkstra/">
-        迪杰斯特拉算法
-      </a>
-    </h2>
-    
-    <time>
-      2月 28, 2018
-    </time>
-		
-    
-    <div class='cats'>
-        <a href="/categories/C-C/">C/C++</a>
-    </div>
-
-  </section>
-  <section class="article typo">
-	  <h1 id="迪杰斯特拉算法"><a href="#迪杰斯特拉算法" class="headerlink" title="迪杰斯特拉算法"></a>迪杰斯特拉算法</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="邻接矩阵-Adjacency-Matrix"><a href="#邻接矩阵-Adjacency-Matrix" class="headerlink" title="邻接矩阵(Adjacency Matrix)"></a>邻接矩阵(Adjacency Matrix)</h3><blockquote>
-<p>本质：一个二维数组，邻接矩阵又分为有向图邻接矩阵和无向图邻接矩阵<br>对无向图而言，邻接矩阵一定是对称的，而且主对角线一定为零（在此仅讨论无向简单图），副对角线不一定为0。<br>
-
-    
-	  <div class="readmore">
-      <a href="/2018/02/28/dijkstra/">Read More</a>
-    </div>
-    
-    
-    
-	  <div class="full-width auto-padding tags">
-      
-        <a href="/tags/算法/">算法</a>
-      
-        <a href="/tags/最短路径/">最短路径</a>
-      
-	  </div>
-    
-  </section>
-</article>
-    </div>
-  
-    <div class='post-wrapper'>
-      <article class="post reveal">
-  <section class="meta">
-    
-    <h2 class="title">
-      <a href="/2018/02/28/today/">
-        C++ 单例模式
-      </a>
-    </h2>
-    
-    <time>
-      2月 28, 2018
-    </time>
-		
-    
-    <div class='cats'>
-        <a href="/categories/C-C/">C/C++</a>
-    </div>
-
-  </section>
-  <section class="article typo">
-	  <h1 id="Singleton-h"><a href="#Singleton-h" class="headerlink" title="Singleton.h"></a>Singleton.h</h1>
-
-    
-	  <div class="readmore">
-      <a href="/2018/02/28/today/">Read More</a>
-    </div>
-    
-    
-    
-	  <div class="full-width auto-padding tags">
-      
-        <a href="/tags/设计模式/">设计模式</a>
-      
-	  </div>
-    
-  </section>
-</article>
-    </div>
-  
 </section>
 
+
+  <nav id="page-nav">
+    
+    
+    <a class="next" rel="next" href="/page/2/">
+      <span class="text">Next</span>
+      <span class="icon icon-chevron-right"></span>
+    </a>
+    
+  </nav>
+  
 
       </div>
       <aside class='l_side'>
